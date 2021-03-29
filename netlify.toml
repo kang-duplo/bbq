@@ -1,4 +1,4 @@
 [build]
   command = "npm run build"
   publish = "out"
-  functions = "built-backend" # netlify-lambda builds to this folder AND Netlify reads functions from here
+  functions = "build-backend" # netlify-lambda builds to this folder AND Netlify reads functions from here
